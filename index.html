@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
       <header>
         <h1>AI Recipe Generator</h1>
         <main>
-          <form>
+          <form id="recipe-generator-form">
             <input
               type="text"
               placeholder="Enter the type of recipe"
@@ -23,13 +24,7 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="recipe">
-            Lemons
-            <br />
-            Sugar
-            <br />
-            Water
-          </div>
+          <div class="recipe" id="recipe"></div>
         </main>
       </header>
       <footer>
@@ -41,9 +36,9 @@
         <a
           href="https://github.com/beautyncode/recipe-generator"
           target="_blank"
-          >open-sourced on Github.</a
+          >open-sourced</a
         >
-        and is hosted on
+        on Github and is hosted on
         <a href="https://ai-recipe-generator-sc.netlify.app/" target="_blank">
           Netlify.</a
         >
