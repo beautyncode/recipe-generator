@@ -8,40 +8,47 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>AI Recipe Generator</h1>
-      <main>
-        <form>
-          <input
-            type="text"
-            placeholder="Enter the type of recipe"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" />
-        </form>
-        <div>
-          Lemons
-          <br />
-          Sugar
-          <br />
-          Water
-        </div>
-      </main>
-    </header>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/beautyncode" target="_blank">Kenyata Walls</a>
-      and is
-      <a href="https://github.com/beautyncode/recipe-generator" target="_blank"
-        >open-sourced on Github.</a
-      >
-      and is hosted on
-      <a href="https://ai-recipe-generator-sc.netlify.app/" target="_blank">
-        Netlify.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+        <main>
+          <form>
+            <input
+              type="text"
+              placeholder="Enter the type of recipe"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="recipe">
+            Lemons
+            <br />
+            Sugar
+            <br />
+            Water
+          </div>
+        </main>
+      </header>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/beautyncode" target="_blank"
+          >Kenyata Walls</a
+        >
+        and is
+        <a
+          href="https://github.com/beautyncode/recipe-generator"
+          target="_blank"
+          >open-sourced on Github.</a
+        >
+        and is hosted on
+        <a href="https://ai-recipe-generator-sc.netlify.app/" target="_blank">
+          Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
